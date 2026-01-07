@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+header {
+    background-color:honeydew;
+    display: flex;
+    justify-content: center;
+}
+
 img#main-logo {
   width: 40rem;
   max-width: 80vw;
-  display: block;
-  margin: 20px auto;
+  margin: 10px;
 }
 
 div.menu-item img {
@@ -25,12 +30,16 @@ h2 {
     font-weight: normal;
 }
 
+nav {
+    background-color: honeydew;
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
     list-style: none;
-    margin: 2rem;
+    padding: 2rem;
     flex-wrap: wrap;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -70,4 +79,17 @@ div.menu-item {
 div.menu-item p.price {
     font-size: 1.2rem;
     align-self: flex-end;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 8px double darkslategrey;
+    align-items: center;
+    justify-items: center;
+}
+
+img#bottom-logo {
+    max-height: 5rem;
+    margin: 2rem;
 }
