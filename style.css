@@ -10,3 +10,9 @@ img#main-logo {
   display: block;
   margin: 20px auto;
 }
+
+div.menu-item img {
+    width: 80%;
+    aspect-ratio: 5 / 3;
+    object-fit: cover;
+}
