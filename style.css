@@ -57,6 +57,11 @@ nav ul {
     text-align: center;
 }
 
+nav ul li:hover {
+    color: white;
+    text-shadow: 0 0 20px darkslategrey, 0 0 15px darkslategrey;
+}
+
 main {
     display: flex;
     flex-direction: column;
