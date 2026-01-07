@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img#main-logo {
+  width: 40rem;
+  max-width: 80vw;
+  display: block;
+  margin: 20px auto;
+}
